@@ -1,0 +1,74 @@
+/* CSS-Datei */
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: beige;
+    background-image: url(../bilder/winter.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: beige;
+    margin-top: 0;
+    padding: 5px;
+}
+
+div#container {
+    width: 80%;
+    min-width: 430px;
+    margin: auto;
+    border: 1px solid navy;
+    background-color: rgba(240, 255, 255, 0.80);
+}
+
+nav {
+    margin-top: 4px;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 3px;
+}
+
+nav a {
+    background-color: navy;
+    color: beige;
+    text-decoration: none;
+    padding: 1px;
+}
+
+nav a:hover {
+    background-color: navy;
+    color: beige;
+    border-bottom: 3px solid red;
+
+}
+
+
+
+article {
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    background-color: rgb(178, 255, 101);
+}
